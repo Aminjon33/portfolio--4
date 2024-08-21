@@ -34,7 +34,7 @@ def checkout_view(request):
     return render(request, "checkout.html")
 
 def coming_soon_view(request):
-    return render(request, "coming_soon.html")
+    return render(request, "coming-soon.html")
 
 def contact_view(request):
     return render(request, "contact.html")
@@ -89,6 +89,9 @@ def portfolio_view(request):
 
 def product_details_view(request):
     return render(request, "product-details.html")
+
+def product_view(request):
+    return render(request, "product.html")
 
 def service_view(request):
     return render(request, "service-page")
